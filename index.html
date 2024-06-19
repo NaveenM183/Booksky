@@ -1,0 +1,34 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="book.css"> 
+</head>
+<body>
+    <div class="nav">
+    <h1>Booksky</h1>
+    </div>
+    <div class="container">
+        <div class="bcon">
+            <h2>Rich Dad</h2>
+            <h5 >Naveen</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis rem qui adipisci! Dolorum, dolor eius libero sunt recusandae expedita ullam eos at a cupiditate necessitatibus dicta, asperiores cumque reiciendis corporis!</p>
+        <button onclick="del(event)" class="btn">Delete</button>
+        </div>
+    </div>
+    <div id="popover"></div>
+    <div id="popbox">
+        <h2>Add book</h2>
+        <form >
+        <input id="book" placeholder="Book">
+        <input  id="auth" placeholder="Author" >
+        <textarea  id="text" placeholder="Description"></textarea> <br>
+        <button id="addb">add</button>
+        <button id="canb" >cancel</button>
+        </form>
+    </div>
+        <button onclick="ps()" id="popup">+</button>
+    <script src="book.js"></script>
+</body>
+</html>
